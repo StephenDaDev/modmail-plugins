@@ -10,7 +10,7 @@ class PremPrefix(commands.Cog):
 
     @commands.command()
     @checks.thread_only()
-    async def raw(self, ctx, message_id: int=None):
+    async def raw(self, ctx):
         await ctx.send('<<prem>>')
         
 
